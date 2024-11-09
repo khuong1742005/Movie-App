@@ -40,7 +40,7 @@ Widget buildMainButton({
               height: height,
               width: width,
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Icon(
                     icon,

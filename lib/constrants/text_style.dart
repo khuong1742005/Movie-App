@@ -13,6 +13,10 @@ TextTheme textTheme() {
       fontWeight: FontWeight.bold,
     ),
     // Heading nhỏ
+    headlineSmall: TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.bold,
+    ),
     // Body lon
     bodyLarge: TextStyle(
       fontSize: 17,
@@ -22,6 +26,11 @@ TextTheme textTheme() {
     bodyMedium: TextStyle(
       fontSize: 15,
       fontWeight: FontWeight.bold,
+    ),
+    // Body nho
+    bodySmall: TextStyle(
+      fontSize: 15,
+      fontWeight: FontWeight.w500,
     ),
     // Label lon
     labelLarge: TextStyle(

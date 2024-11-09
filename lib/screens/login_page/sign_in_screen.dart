@@ -134,6 +134,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     img: 'assets/facebook.png',
                     width: 80,
                     height: 58,
+                    isHaveText: false,
                   ),
                   buildLogin(
                     context,
@@ -141,6 +142,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     img: 'assets/google.png',
                     width: 80,
                     height: 58,
+                    isHaveText: false,
                   ),
                   buildLogin(
                     context,
@@ -148,6 +150,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     img: 'assets/github.png',
                     width: 80,
                     height: 58,
+                    isHaveText: false,
                   ),
                 ],
               ),
